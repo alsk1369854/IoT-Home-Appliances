@@ -73,13 +73,11 @@ void setup()
 // 運行階段
 void loop()
 {
-    // 檢查手動開關是否有被切換
-    int manualSwitchbtn = digitalRead(manualSwitchPin);
-    if (manualSwitchState != manualSwitchbtn)
-    {
-        // 有則主燈狀太切換
-        mainLightState = !mainLightState;
-        manualSwitchState = manualSwitchbtn;
+    // 如果手動按紐按下
+    if (manualSwitchState == 1)
+    {   
+        // 切換主燈狀態 開 => 關; 關 => 開
+        mainLightState = !mainLightState
         digitalWrite(relayPin, mainLightState);
         delay(1000);
     }
