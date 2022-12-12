@@ -45,7 +45,7 @@ http://192.168.1.6
 
 ## DEMO
 <p align="center">
-    <img height="400px" src="https://raw.githubusercontent.com/alsk1369854/IoTHomeAppliances/master/screenshot/DeviceWorkinVideo.gif"/>
+    <img height="400px" src="https://raw.githubusercontent.com/alsk1369854/IoTHomeAppliances/master/screenshot/DeviceWorkingVideo.gif"/>
 </p>
 
 #### _END_
