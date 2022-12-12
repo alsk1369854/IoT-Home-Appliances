@@ -4,7 +4,7 @@
 1. IoT Home Appliances Access Point (將設備作為AP節點操作)
 2. IoT Home Appliances Ｗith Router (將設備連上WiFi操作)
 
-## 1.IoT Home Appliances Access Point (將設備作為AP節點操作)
+## 1. IoT Home Appliances Access Point (將設備作為AP節點操作)
 設備預設配置如下
 ```
 # Pin 
@@ -23,7 +23,7 @@ http://www.switch.com
 關(動作): http://www.switch.com/operate?operate=off
 ```
 
-## 2. ＷithRouter
+## 2. IoT Home Appliances Ｗith Router (將設備連上WiFi操作)
 設備預設配置如下
 ```
 # Pin 
